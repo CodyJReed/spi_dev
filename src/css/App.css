@@ -1,0 +1,195 @@
+/* Styles */
+/* App */
+
+.App {
+  font-family: Roboto;
+}
+
+/* Header */
+
+.nav-bar {
+  position: fixed;
+  padding-top: 0.5rem;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(0deg, #2bb885 0%, rgba(196, 196, 196, 0) 50%),
+    #fff;
+  z-index: 10;
+}
+
+.icn-spi {
+  margin-left: 0.5rem;
+  height: 4em;
+}
+
+.icn-logo {
+  height: 3em;
+  margin-left: 4px;
+}
+
+/* Nav */
+
+/* Hamburger Icon */
+
+nav {
+  position: relative;
+}
+
+nav input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+nav label {
+  display: block;
+  margin-top: 1.2em;
+  padding: 0.78em 1em;
+  margin-right: 2em;
+  transition: 0.5s;
+}
+
+nav label:hover {
+  cursor: pointer;
+}
+
+nav input:checked ~ label .hamburger {
+  background-color: #fff;
+}
+
+nav input:checked ~ label .hamburger::before {
+  transform: translateY(12px) rotate(45deg);
+}
+
+nav input:checked ~ label .hamburger::after {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.hamburger {
+  position: absolute;
+  top: 30px;
+  width: 2em;
+  right: 2rem;
+}
+
+.hamburger::before {
+  top: -10px;
+  width: 100%;
+}
+
+.hamburger::after {
+  top: 10px;
+  width: 100%;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  background-color: #000;
+  height: 3px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.hamburger::before,
+.hamburger::after {
+  position: absolute;
+  content: "";
+}
+
+.nav-toggle {
+  position: fixed;
+  top: 3.7rem;
+  right: 0.1%;
+  padding: 47px;
+  list-style: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.25s ease-in;
+}
+
+.nav-toggle li {
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  padding: 25px 14.5px;
+  margin: 36px;
+  color: #fff;
+}
+
+nav input:checked ~ .nav-toggle {
+  max-height: 100vh;
+  background-color: #2bb885;
+}
+
+/* Resources */
+
+.content {
+  background: linear-gradient(175deg, #2bb885 2%, rgba(196, 196, 196, 0) 5%);
+  position: relative;
+  top: 70px;
+}
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-family: Rasa;
+  font-weight: normal;
+  margin: 0 auto 4rem;
+  padding-top: 21px;
+  text-align: center;
+  color: #fff;
+}
+
+.article-heading {
+  font-size: 2rem;
+  font-family: Rasa;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 1rem;
+  background-color: #2bb885;
+}
+
+/* AlignInvest */
+
+.img-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* DevelopInvest */
+
+.icon {
+  position: absolute;
+  bottom: 8.6%;
+}
+
+/* Keyframes */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes App-loading-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
