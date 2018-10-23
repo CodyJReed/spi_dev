@@ -1,8 +1,8 @@
 import React from "react";
 
-import AssessInvest from "./AssessInvest";
-import AlignInvest from "./AlignInvest";
-import DevelopInvest from "./DevelopInvest";
+import AssessInvest from "./Components/AssessInvest";
+import AlignInvest from "./Components/AlignInvest";
+import DevelopInvest from "./Components/DevelopInvest";
 
 const Resources = () => {
   return (

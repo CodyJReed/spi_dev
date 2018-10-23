@@ -1,6 +1,6 @@
 import React from "react";
 
-import loop from "../img/img-continuous-improvement-loop.svg";
+import loop from "../../../img/img-continuous-improvement-loop.svg";
 
 const DevelopInvest = () => {
   return (

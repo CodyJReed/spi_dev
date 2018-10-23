@@ -1,6 +1,6 @@
 import React from "react";
 
-import triangle from "../img/img-bermuda-sales-triangle.svg";
+import triangle from "../../../img/img-bermuda-sales-triangle.svg";
 
 const AlignInvest = () => {
   return (
