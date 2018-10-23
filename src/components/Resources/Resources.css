@@ -24,6 +24,12 @@
   font-family: Rasa;
 }
 
+.loop_list {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #ec1515;
+}
+
 p {
   line-height: 1.5;
 }
@@ -55,7 +61,7 @@ footer {
   }
 
   .section_spacer section {
-    margin: 0 5px;
+    margin: 0 10px;
     flex: 1;
   }
 

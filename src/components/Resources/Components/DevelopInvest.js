@@ -20,7 +20,7 @@ const DevelopInvest = () => {
         key steps can help ensure that training investments translate
         consistently to desired business outcomes:
       </p>
-      <ol>
+      <ol className="loop_list">
         <li>Align high impact competencies with specific sales goals.</li>
         <li>Objectively assess the current state of sales talent.</li>
         <li>
