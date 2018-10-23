@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Resources.css";
+
 import AssessInvest from "./Components/AssessInvest";
 import AlignInvest from "./Components/AlignInvest";
 import DevelopInvest from "./Components/DevelopInvest";

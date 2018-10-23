@@ -37,7 +37,7 @@ class App extends Component {
         {backdrop}
         <main
           style={{
-            marginTop: "64px"
+            marginTop: "54px"
           }}
         >
           <Resources />
