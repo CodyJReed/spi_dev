@@ -13,7 +13,7 @@ const NavBar = props => (
         <DrawerToggleButton click={props.drawerClickHandler} />
       </div>
       <div className="navbar__logo">
-        <a href="/">
+        <a href="/spi_dev">
           <img className="spi__icon" src={spi} alt="spi" />
           <img
             className="spi__brand"
@@ -26,19 +26,19 @@ const NavBar = props => (
       <div className="navbar_navigation-items">
         <ul>
           <li>
-            <a href="/">Solutions</a>
+            <a href="/spi_dev">Solutions</a>
           </li>
           <li>
-            <a href="/">Industries</a>
+            <a href="/spi_dev">Industries</a>
           </li>
           <li>
-            <a href="/">SPI University</a>
+            <a href="/spi_dev">SPI University</a>
           </li>
           <li>
-            <a href="/">Company</a>
+            <a href="/spi_dev">Company</a>
           </li>
           <li>
-            <a href="/">Contact Us</a>
+            <a href="/spi_dev">Contact Us</a>
           </li>
         </ul>
       </div>
