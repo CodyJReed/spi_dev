@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/spi_dev/static/js/runtime~main.8ebf9d55.js"
   },
   {
-    "revision": "c2c448cf2848c3aba065",
-    "url": "/spi_dev/static/js/main.c2c448cf.chunk.js"
+    "revision": "04ae2dd4a88c727a6819",
+    "url": "/spi_dev/static/js/main.04ae2dd4.chunk.js"
   },
   {
-    "revision": "845b23aea6178c6dc9d9",
-    "url": "/spi_dev/static/js/1.845b23ae.chunk.js"
+    "revision": "1540019e2557f8c1820c",
+    "url": "/spi_dev/static/js/1.1540019e.chunk.js"
   },
   {
-    "revision": "c2c448cf2848c3aba065",
-    "url": "/spi_dev/static/css/main.6cb22e1b.chunk.css"
+    "revision": "04ae2dd4a88c727a6819",
+    "url": "/spi_dev/static/css/main.74106009.chunk.css"
   },
   {
-    "revision": "f9f0174bb6f7f52c266aca389b7c1fb5",
+    "revision": "fb1159217428f6805da8bc5ff55fa9dd",
     "url": "/spi_dev/index.html"
   }
 ];
