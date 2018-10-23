@@ -1,5 +1,9 @@
 self.__precacheManifest = [
   {
+    "revision": "f7d87e09f915ec2c602c5d54d92ac0b4",
+    "url": "/spi_dev/static/media/rsz_img-slider.f7d87e09.jpg"
+  },
+  {
     "revision": "4e5cf96c3df901918e3cde859526feb9",
     "url": "/spi_dev/static/media/img-continuous-improvement-loop.4e5cf96c.svg"
   },
@@ -20,19 +24,19 @@ self.__precacheManifest = [
     "url": "/spi_dev/static/js/runtime~main.8ebf9d55.js"
   },
   {
-    "revision": "a535b5ed607fd61ff044",
-    "url": "/spi_dev/static/js/main.a535b5ed.chunk.js"
+    "revision": "3d881ac5e6faa2d596ba",
+    "url": "/spi_dev/static/js/main.3d881ac5.chunk.js"
   },
   {
     "revision": "1540019e2557f8c1820c",
     "url": "/spi_dev/static/js/1.1540019e.chunk.js"
   },
   {
-    "revision": "a535b5ed607fd61ff044",
-    "url": "/spi_dev/static/css/main.74106009.chunk.css"
+    "revision": "3d881ac5e6faa2d596ba",
+    "url": "/spi_dev/static/css/main.f427e69a.chunk.css"
   },
   {
-    "revision": "6efdf2bd62ada313cf30f3fe9aecbf8f",
+    "revision": "ef9fc7a036693e8f04927879292853b8",
     "url": "/spi_dev/index.html"
   }
 ];
