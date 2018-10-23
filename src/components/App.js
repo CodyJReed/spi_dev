@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { BrowserRouter } from "react-router-dom";
 
 import NavBar from "./NavBar/NavBar";
 import SideDrawer from "./SideDrawer/SideDrawer";
@@ -28,24 +27,22 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
     return (
-      <BrowserRouter>
-        <div
+      <div
+        style={{
+          height: "100%"
+        }}
+      >
+        <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
+        <SideDrawer show={this.state.sideDrawerOpen} />
+        {backdrop}
+        <main
           style={{
-            height: "100%"
+            marginTop: "64px"
           }}
         >
-          <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
-          <SideDrawer show={this.state.sideDrawerOpen} />
-          {backdrop}
-          <main
-            style={{
-              marginTop: "64px"
-            }}
-          >
-            <Resources />
-          </main>
-        </div>
-      </BrowserRouter>
+          <Resources />
+        </main>
+      </div>
     );
   }
 }
