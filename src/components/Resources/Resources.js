@@ -15,12 +15,13 @@ const Resources = () => {
           <h1 className="article-heading">
             Sales Training Does Not Equal Sales Performance
           </h1>
+          <div className="section_spacer">
+            <AssessInvest />
 
-          <AssessInvest />
+            <AlignInvest />
 
-          <AlignInvest />
-
-          <DevelopInvest />
+            <DevelopInvest />
+          </div>
         </article>
       </section>
       <footer>&copy; 2018 Thanx 4 the Opportunity Haiz</footer>

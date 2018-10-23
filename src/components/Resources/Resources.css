@@ -1,12 +1,7 @@
 /* Resources */
 
 .content {
-  background: linear-gradient(
-    175deg,
-    #2bb885 3%,
-    #fff 5%,
-    rgba(255, 255, 255, 0.5) 15%
-  );
+  background: linear-gradient(180deg, #2bb885 2%, #fff 4%);
 }
 
 .wrapper {
@@ -15,7 +10,7 @@
 }
 
 .section-heading {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: Rasa;
   font-weight: normal;
   margin: 0 auto 4rem;
@@ -27,6 +22,10 @@
 .article-heading {
   font-size: 2rem;
   font-family: Rasa;
+}
+
+p {
+  line-height: 1.5;
 }
 
 footer {
@@ -41,4 +40,26 @@ footer {
 .img-container {
   margin: 0 auto;
   text-align: center;
+  max-width: 600px;
+}
+
+@media (min-width: 900px) {
+  .section-heading {
+    font-size: 4rem;
+    color: #000;
+  }
+
+  .section_spacer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section_spacer section {
+    margin: 0 5px;
+    flex: 1;
+  }
+
+  .section_spacer section:nth-of-type(3) {
+    flex: 2;
+  }
 }
