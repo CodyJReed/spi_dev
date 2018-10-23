@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/spi_dev/static/media/img-bermuda-sales-triangle.7b400941.svg"
   },
   {
-    "revision": "e4c27bd11d6f7f8a2d39b1443ee3de05",
-    "url": "/spi_dev/static/media/icn-spi.e4c27bd1.svg"
+    "revision": "28d5c96e2fed44edf7867fae807666e3",
+    "url": "/spi_dev/static/media/icn-spi.28d5c96e.svg"
   },
   {
     "revision": "c2e1a82ddf1d2c8c41eb1e19bcc08a42",
@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/spi_dev/static/js/runtime~main.8ebf9d55.js"
   },
   {
-    "revision": "d9c0269a3e14c426073d",
-    "url": "/spi_dev/static/js/main.d9c0269a.chunk.js"
+    "revision": "1f9809deb10324146f22",
+    "url": "/spi_dev/static/js/main.1f9809de.chunk.js"
   },
   {
     "revision": "1540019e2557f8c1820c",
     "url": "/spi_dev/static/js/1.1540019e.chunk.js"
   },
   {
-    "revision": "d9c0269a3e14c426073d",
-    "url": "/spi_dev/static/css/main.fc15cfa0.chunk.css"
+    "revision": "1f9809deb10324146f22",
+    "url": "/spi_dev/static/css/main.ba53ed2e.chunk.css"
   },
   {
-    "revision": "e1b38673a5223e114b6b3972c1b0dab5",
+    "revision": "4d9124c797d78a1fd7db45cb263ea1d3",
     "url": "/spi_dev/index.html"
   }
 ];
