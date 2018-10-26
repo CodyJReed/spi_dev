@@ -57,15 +57,15 @@ footer {
 
   .section_spacer {
     display: flex;
-    flex-wrap: wrap;
   }
 
-  .section_spacer section {
-    margin: 0 10px;
-    flex: 1;
+  .section_spacer section,
+  .section-column section {
+    margin: 0 20px;
   }
 
-  .section_spacer section:nth-of-type(3) {
-    flex: 2;
+  .section-column {
+    display: flex;
+    flex-direction: column;
   }
 }

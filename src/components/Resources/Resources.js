@@ -16,9 +16,11 @@ const Resources = () => {
             Sales Training Does Not Equal Sales Performance
           </h1>
           <div className="section_spacer">
-            <AssessInvest />
+            <span className="section-column">
+              <AssessInvest />
 
-            <AlignInvest />
+              <AlignInvest />
+            </span>
 
             <DevelopInvest />
           </div>
